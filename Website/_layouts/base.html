@@ -1,0 +1,22 @@
+---
+---
+<!doctype html>
+<html lang="en">
+	{% include head.html %}
+	<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+		{% include mobilemenu.html %}
+		<div class="unslate_co--site-wrap">
+			<div class="unslate_co--site-inner">
+				<div class="lines-wrap">
+					<div class="lines-inner">
+						<div class="lines"></div>
+					</div>
+				</div>
+				{% include navbar.html %}
+				{{ content }}
+			</div>
+			{% include footer.html %}
+		</div>
+		{% include loaderscript.html %}
+	</body>
+</html>
