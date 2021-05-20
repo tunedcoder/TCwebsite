@@ -1,0 +1,4 @@
+Setup Jekyll
+Add Css
+Create appropriate Layouts
+Start Blog
