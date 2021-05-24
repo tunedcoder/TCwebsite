@@ -4,7 +4,6 @@
 <html lang="en">
 	{% include head.html %}
 	<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
-		{% include mobilemenu.html %}
 		<div class="unslate_co--site-wrap">
 			<div class="unslate_co--site-inner">
 				<div class="lines-wrap">
@@ -14,6 +13,7 @@
 				</div>
 				{% include navbar.html %}
 				{{ content }}
+				{% include contact.html %}
 			</div>
 			{% include footer.html %}
 		</div>

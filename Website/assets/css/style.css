@@ -775,6 +775,9 @@ a, a:hover {
   font-size: 33px;
   color: #fff;
 }
+.cover-v1 .subheading .column-span: {
+  color: #d63447;
+}
 
 @media (max-width: 991.98px) {
   .cover-v1 .subheading {
@@ -2065,6 +2068,9 @@ span.error {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
+}
+.gsap-reveal-hero .reveal-wrap .reveal-content .span{
+  color: #D63447;
 }
 
 .gsap-reveal-img {

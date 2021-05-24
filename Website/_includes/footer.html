@@ -2,13 +2,11 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-7">
-        
         <div class="footer-site-logo"><a href="#">TunedCoder<span>.</span></a></div>
         <ul class="footer-site-social">
-          <li><a href="https://www.facebook.com/kingg.thakkar/">Facebook</a></li>
-          <li><a href="https://www.youtube.com/channel/UCLvgJXMD6TxKL5oQSkI6AGA/">Youtube</a></li>
-          <li><a href="https://www.instagram.com/dhyanthakkar/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/dhyan-thakkar-494b621a5/">LinkedIn</a></li>
+          {% for soc in site.data.socials %}
+            <li><a href="soc.link">{{ soc.name }}</a></li>
+          {% endfor %}
         </ul>
         <p class="site-copyright">
           
