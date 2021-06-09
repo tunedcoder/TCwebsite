@@ -26,9 +26,9 @@ title: TunedCoder
 <div id="portfolio-single-holder"></div>
 <!--
 <div class="portfolio-wrapper">
-									<div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
-																		<h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
-									</div>
+										<div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+																				<h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
+										</div>
 </div>
 -->
 <div class="unslate_co--section" id="about-section">
@@ -64,7 +64,7 @@ title: TunedCoder
 			<h3 class="heading-h3 text-center divider"><span class="gsap-reveal">Work in progress</span></h3>
 		</div>
 		<div class="row gutter-v4 align-items-stretch">
-			{% for post in site.posts %}
+			{% for post in site.posts limit:12 %}
 				{% if post.status == "published" %}
 					{% if post.size == "long" %}
 						<div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
